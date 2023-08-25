@@ -1,0 +1,71 @@
+body {
+    padding: 10px;
+    min-width: 400px;
+}
+
+.button {
+    border: 0px;
+    border-radius: 0px;
+    background-color: #5f9341;
+    text-align: center;
+    color: white;
+    padding: 11px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 4px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: green;
+}
+
+#input-el {
+    width: 500px;
+    border: 1px solid #5f9341;
+    padding: 10px;
+    box-sizing: border-box;
+
+    column-width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li a {
+    font-size: 20px;
+    font-family: monospace;
+
+
+}
+
+li a:link {
+    color: #5f9341;
+    text-decoration: none;
+}
+
+li a:active {
+    color: #6100d3;
+    text-decoration: underline;
+}
+
+li a:visited {
+    color: #ff6200;
+    text-decoration: none;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+}
